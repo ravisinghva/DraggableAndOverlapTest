@@ -1,0 +1,72 @@
+#headerDiv 
+{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: auto; 
+    width: 50%;
+}
+
+#headerDiv h2
+{
+    color: green;
+}
+
+#headerDiv h6
+{
+    color: teal;
+}
+
+#draggableDiv 
+{ 
+    width: 100px; 
+    height: 100px; 
+    background: orange;
+    opacity: 0.75;
+    border: 5px solid #73AD21;
+    z-index: 2;
+}
+
+#draggableDiv h5
+{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#staticDiv 
+{ 
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    left: 300px;
+    width: 300px; 
+    height: 150px; 
+    padding: 0.5em; 
+    background:skyblue;
+}
+
+#staticDiv h5
+{
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nooverlap 
+{ 
+    border: 5px solid green;
+}
+
+.overlap 
+{ 
+    border: 5px solid red;
+}
+
+#staticDiv h3
+{ 
+    color:blue;
+}
+
+#footerDiv h6
+{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
