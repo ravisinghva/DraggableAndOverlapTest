@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drag and Overlap Test</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="JS/functions.js"></script>
+</head>
+<body>
+
+<div id="headerDiv">
+  <h2>Drag and Overlap Test</h2>
+  <h6>Drag the draggable box around to test Dragging functionality<br>
+  Drag the draggable box on top of static box to test Overlap Detection functionality</h6>
+</div>
+<hr>
+<div>
+<div id="draggableDiv" title="You can drag me around">
+  <h5>Draggable box</h5>
+</div>
+ 
+<div id="staticDiv" class="nooverlap" title="Static Box for testing box overlapping">
+  <h5 id="dtlabel">Static box for Overlap Detection</h5>
+</div>
+<br>
+ <hr>
+ <div id="footerDiv">
+  <h6>This examlpe is using JQuery UI from https://code.jquery.com/ui/ for making div element draggable.</h6>
+</div>
+ 
+</body>
+</html>
